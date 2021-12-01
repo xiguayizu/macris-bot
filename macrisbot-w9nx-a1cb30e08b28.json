@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "macrisbot-w9nx",
+  "private_key_id": "a1cb30e08b286344007cb5f35c629b64f6d07f1a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDpi+4Sasp1Cg/P\nstv9apPmLfsy2gTUPBtlQlnB1E3dP03bSOnBLXS5BU+e6HbZKUKicdYM3cXoYinw\n8pqL1pwEMbyqGAYILSE1Lhsd+5s2ucLd9/cUW2jF9EoQZ7GE1GGZhZfTYXhKFI4d\nLdWxVrsySADa3r1irzG1vXK/T9OHpddQp+H2wg+YGUxePrMEdkpy9LtAEzzUO44G\nkDOV0soUxRbZYBgQdtNeob3Dvh+QQWaOHCu+D7v0nMijto8XFGlcXXOkt+Z0r1ra\nYxudOk4yUCcaDqPFJ5AwSmsiYYw08DaT4jv9nazuqcKRvXVwRXPq2kP0Ew3MfddA\naaV4p8jbAgMBAAECggEAUqHj9jg6sfaBaaeLFrri4YpbWr6w/rbVqpozT9ViR2ni\njjfaHTOMHPq4FS2C/4sNvJQyfBLrtzEkTdBIxjmEsic27afaWoI9QaeyiIVBgbdw\nL0FQ9q7w/zlUC0HlGW5bqgoOkgfmm69yKPjSpxBc44l+Y/JzZ7s9B2SkePQxj8h8\nu1/J6pwsEeT/VkoOStng/3XQyJYkZ1/XlWfxNPZwILxeAefunTqHke9DjBM7WsUi\nMwUSY/Fkd6oq4BgriJ4xVKKQgJF0soRasPfZk2l0u1OKDE1RHGRuKK4XKMlq+rpk\nFKRDoExkdftox20h4WfSXIeeKTONVIQIvoSga8AOIQKBgQD5CK39NJiqLnujfZXq\nZnZ4O0ncNHcLiI1nFGv9CAvg90gP2WvQlaZezEnNZbRkpbA8JQypIvciX3HfLzAn\nEVnL0JawlE4lBNC5VNIv1+pppCU8Uz7f6iMhYu7IdCKZLpVNa1OkzaCPJg6Fif9d\nbUFyr0ALihfgLd9pe90CDMC1FwKBgQDwFFixSN+HnUWthbeG5Vx43YxlzCm3hxLk\n9LVAnMuq/XdjfdXNc2H0zzW9/Lic9AMW+luKGhrY/GLshX5I7Ku2M14h7lfx4bRb\nEhoOZqRe6oyKmKBdbYaXMnBv3S6zYzXI4ziErYmgpmIbqFWNAoLWTf7gkbT6kaop\nYPOiDGCs3QKBgQCHfjJz5k79oMbCQAz1+IOSjOd1uNHgY45TvCe5Bsy3vLLndKsV\nVKatQ0cQSrqoXAGT57CIwa5mdDmXbawsRWNu4fFq53XQ7FrHyx+EylwO2DEuLjiy\nSUiN3K8APzen0lGHStK6gupNmC4kd92Jrm0Cgdk9rgepgCviz3KCr/+VRwKBgQCc\nz01XDpgiBhGa0zoae/k4YMzxOLcOzsUCkutIdqF43/F5JJnfhbu3oRgjLcyPh7n0\n6jWcMIzUqZUbk932V8+YRFj5pKoArUGWMm6edWBrNpvxcttb6sv8Oc/C4R89wFFD\nE1a5InhAXCy8j+jBH6DBxVPy7njdKQOR32eCsr76aQKBgQC22ZzdXCRbnek7nJzj\nzQEnwp0dakFRPZrtyB7wXHBm9eo819mKgwbycAuntcaDBNprOd/JoYLEwe2MXxhi\nDVTp5PCNb7QVimb3gEXhI1Pg2CcksAyxS7bXSySo4XtNAo1yfHd6Hf71wzaWHOEr\nyBcWceqlMQok5ItIb82btryMDQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "macris-bot-whatsapp@macrisbot-w9nx.iam.gserviceaccount.com",
+  "client_id": "109852804663471807309",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/macris-bot-whatsapp%40macrisbot-w9nx.iam.gserviceaccount.com"
+}
