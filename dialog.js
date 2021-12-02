@@ -9,8 +9,36 @@ const app = express();
 const port = process.env.PORT || 8000;
 const server = http.createServer(app);
 
+
 venom
-  .create({ headless: false })
+  .create(
+    'sessionName',
+    (base64Qr, asciiQR) => {
+      console.log(asciiQR); // Optional to log the QR in the terminal
+      var matches = base64Qr.match(/^data:([A-Za-z-+\/]+);base64,(.+)$/),
+        response = {};
+
+      if (matches.length !== 3) {
+        return new Error('Invalid input string');
+      }
+      response.type = matches[1];
+      response.data = new Buffer.from(matches[2], 'base64');
+
+      var imageBuffer = response;
+      require('fs').writeFile(
+        'out.png',
+        imageBuffer['data'],
+        'binary',
+        function (err) {
+          if (err != null) {
+            console.log(err);
+          }
+        }
+      );
+    },
+    undefined,
+    { logQR: false }
+  )
   .then((client) => start(client))
   .catch((erro) => {
     console.log(erro);
@@ -22,8 +50,10 @@ app.post('/webhook', function (request, response) {
   intentMap.set('nomedaintencao', nomedafuncao)
   agent.handleRequest(intentMap);
 });
-function nomedafuncao(agent) {
-}
+
+app.get('/scan', function(request, response) {
+    response.sendFile('./out.png', { root: __dirname });
+  });
 
 const sessionClient = new dialogflow.SessionsClient({ keyFilename: "macrisbot-w9nx-a1cb30e08b28.json" });
 
