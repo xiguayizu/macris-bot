@@ -9,7 +9,7 @@ const app = express();
 const port = process.env.PORT || 8000;
 const server = http.createServer(app);
 
-
+app.get('/start', function(request, response) {
 venom
   .create(
     'sessionName',
@@ -43,6 +43,7 @@ venom
   .catch((erro) => {
     console.log(erro);
   });
+});
 
 app.post('/webhook', function (request, response) {
   const agent = new WebhookClient({ request, response });
