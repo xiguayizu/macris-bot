@@ -1,7 +1,7 @@
 {
   "name": "macris-bot",
-  "version": "1.0.0",
-  "description": "Venom is a high-performance system developed with JavaScript to create a bot for WhatsApp, support for creating any interaction, such as customer service, media sending, sentence recognition based on artificial intelligence and all types of design architecture for WhatsApp. ",
+  "version": "2.0.0",
+  "description": "Robozinho WhatsApp. ",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -25,7 +25,7 @@
     "lint:fix": "npx eslint src --fix",
     "prepublish": "npm run clean && npm run build",
     "release": "release-it",
-    "start": "npm run build:venom & tsc app.ts && node app.js",
+    "start": "npm run build:venom && node dialog.js",
     "test": "echo \"No tests yet\"",
     "watch": "concurrently \"tsc -w\" \"nodemon dist/index.js\""
   },
