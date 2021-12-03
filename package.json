@@ -112,7 +112,7 @@
     "axios": "^0.21.4",
     "boxen": "^5.1.1",
     "catch-exit": "^1.1.0",
-    "chalk": "^4.0.0",
+    "chalk": "^5.0.0",
     "chrome-launcher": "^0.14.0",
     "dialogflow-fulfillment": "^0.6.1",
     "dotenv": "^10.0.0",
